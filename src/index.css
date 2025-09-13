@@ -5,7 +5,11 @@
 	color-scheme: light dark;
 }
 
-html, body, #root { height: 100%; }
+html,
+body,
+#root {
+	height: 100%;
+}
 body {
 	margin: 0;
 	background: linear-gradient(180deg, #f2f6ff, #ffffff);
@@ -13,5 +17,8 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-	body { background: linear-gradient(180deg, #0b1220, #0f172a); color: #e5e7eb; }
+	body {
+		background: linear-gradient(180deg, #0b1220, #0f172a);
+		color: #e5e7eb;
+	}
 }
